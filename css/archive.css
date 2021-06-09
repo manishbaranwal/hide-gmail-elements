@@ -1,0 +1,5 @@
+[data-tooltip="Archive"],
+[aria-label="Archive"],
+[title="Archive"] {
+  display: none !important;
+}

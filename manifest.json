@@ -1,0 +1,19 @@
+{
+  "name": "Archive",
+  "description": "Hide archive button in gmail !",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "manish baranwal",
+  "icons": {
+    "20": "/images/archive-20.png",
+    "32": "/images/archive-40.png",
+    "48": "/images/archive-40.png",
+    "128": "/images/archive-40.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/*"],
+      "css": ["css/archive.css"]
+    }
+  ]
+}
