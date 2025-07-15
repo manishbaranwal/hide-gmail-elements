@@ -3,3 +3,7 @@
 [title="Archive"] {
   display: none !important;
 }
+
+[data-derived-recommendation-interaction-details-blob] {
+  display: none !important;
+}
